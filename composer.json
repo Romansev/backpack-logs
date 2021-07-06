@@ -7,7 +7,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "romansev\\backpacklogs\\LogManagerServiceProvider"
+                "Romansev\\BackpackLogs\\LogManagerServiceProvider"
             ]
         }
     },
