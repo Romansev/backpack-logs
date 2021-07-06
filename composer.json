@@ -4,6 +4,13 @@
     "require": {
         "backpack/crud": "4.2.x-dev"
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "romansev\\backpacklogs\\LogManagerServiceProvider"
+            ]
+        }
+    },
     "autoload": {
         "psr-4": {
             "Romansev\\BackpackLogs\\": "src/"
