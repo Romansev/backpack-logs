@@ -1,0 +1,19 @@
+{
+    "name": "romansev/backpack-logs",
+    "description": "LogManager for Laravel Backpack Admin Panel",
+    "require": {
+        "backpack/crud": "4.2.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Romansev\\BackpackLogs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "romansev",
+            "email": "sevenfolder@ya.ru"
+        }
+    ],
+    "minimum-stability": "dev"
+}
